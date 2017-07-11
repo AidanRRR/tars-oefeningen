@@ -6,6 +6,10 @@ namespace ctest
     {
         static void Main(string[] args)
         {
+        }
+
+        private void vraag1()
+        {
             int[] arrTest = new int[] { 1, 50, 60, 80 };
             int som = 0;
 
@@ -17,4 +21,5 @@ namespace ctest
             Console.WriteLine(som);
         }
     }
+
 }
